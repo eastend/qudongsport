@@ -120,6 +120,27 @@ public class BLECore {
         return command;
     }
 
+    /**
+     * byte数组转整形
+     *
+     * @param b
+     * @return
+     */
+    public static int byteArrayToInt(byte[] b) {
+        return b[3] & 0xFF | (b[2] & 0xFF) << 8 | (b[1] & 0xFF) << 16 | (b[0] & 0xFF) << 24;
+    }
 
+
+    public static String byteArray2HexString(byte[] b) {
+        StringBuffer buffer = new StringBuffer();
+        for (int i = 0; i < b.length; i++) {
+            String hex = Integer.toHexString(b[i] & 0xFF);
+            if (hex.length() == 1) {
+                hex = '0' + hex;
+            }
+            buffer.append(hex);
+        }
+        return buffer.toString();
+    }
 
 }
