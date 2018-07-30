@@ -9,7 +9,6 @@ import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -17,20 +16,16 @@ import android.widget.Toast;
 
 import com.clj.fastble.BleManager;
 import com.clj.fastble.callback.BleGattCallback;
-import com.clj.fastble.callback.BleIndicateCallback;
 import com.clj.fastble.callback.BleNotifyCallback;
-import com.clj.fastble.callback.BleReadCallback;
 import com.clj.fastble.callback.BleScanCallback;
 import com.clj.fastble.callback.BleWriteCallback;
 import com.clj.fastble.data.BleDevice;
 import com.clj.fastble.exception.BleException;
 import com.clj.fastble.scan.BleScanRuleConfig;
-import com.qudong.sport.android.BLECore;
-import com.qudong.sport.android.BoatKeyEvent;
+import com.qudong.sport.android.core.BLECore;
 import com.qudong.sport.android.R;
 import com.qudong.sport.android.core.BleCoreFactory;
 import com.qudong.sport.android.core.BleCoreInterface;
-import com.qudong.sport.android.core.CoreV1;
 
 import java.util.List;
 

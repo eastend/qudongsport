@@ -1,3 +1,20 @@
 <resources>
+    <dimen name="home_tab_text_size">10dp</dimen>
+    <dimen name="toolbar_title_text_size">18dp</dimen>
+    <dimen name="toolbar_sub_text_size">15dp</dimen>
+    <dimen name="toolbar_height">45dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="text_margin2">8dp</dimen>
+    <dimen name="text_padding">10dp</dimen>
+    <dimen name="large_text_size">20dp</dimen>
+    <dimen name="first_text_size">16dp</dimen>
+    <dimen name="second_text_size">14dp</dimen>
+    <dimen name="third_text_size">12dp</dimen>
+    <dimen name="fourth_text_size">10dp</dimen>
+    <dimen name="indicator_height">2dp</dimen>
+    <dimen name="indicator_width">20dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="toolbar_sub_element_margin">14dp</dimen>
+    <dimen name="text_padding2">5dp</dimen>
+    <dimen name="vertical_divider">5dp</dimen>
 </resources>

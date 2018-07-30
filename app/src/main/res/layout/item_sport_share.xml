@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <com.sport.qudong.baselibrary.view.CircleImageView
+            android:id="@+id/img_head"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="@dimen/text_padding"
+            android:layout_marginLeft="@dimen/text_padding"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="@dimen/text_padding" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:text="吴彦祖"
+            android:textColor="@color/text_color_label"
+            android:textSize="@dimen/second_text_size" />
+
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/text_padding"
+            android:maxLines="1"
+            android:text="刚刚"
+            android:textColor="@color/light_grey"
+            android:textSize="@dimen/third_text_size" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/text_padding"
+        android:padding="@dimen/text_padding"
+        android:text="活动不错！"
+        android:textColor="@color/text_color_light"
+        android:textSize="@dimen/second_text_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_color"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/text_padding"
+        android:paddingRight="@dimen/text_padding">
+
+        <TextView
+            android:id="@+id/tv_share_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/text_padding"
+            android:maxLines="1"
+            android:padding="@dimen/text_padding"
+            android:text="参加互动参加互动参加互动参加互动参加互动"
+            android:textColor="@color/text_color_light"
+            android:textSize="@dimen/third_text_size" />
+
+        <ImageView
+            android:id="@+id/img_share_cover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_padding"
+            android:layout_marginRight="@dimen/text_padding"
+            android:scaleType="centerCrop" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/text_padding">
+
+        <TextView
+            android:id="@+id/tv_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@mipmap/icon_view"
+            android:drawablePadding="@dimen/text_padding2"
+            android:gravity="center_vertical"
+            android:text="300"
+            android:textColor="@color/text_color_label"
+            android:textSize="@dimen/fourth_text_size" />
+
+        <CheckBox
+            android:id="@+id/tv_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_toRightOf="@id/tv_view"
+            android:button="@drawable/drawable_like"
+            android:checked="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/text_padding2"
+            android:text="300"
+            android:textColor="@color/text_color_label"
+            android:textSize="@dimen/fourth_text_size" />
+
+        <TextView
+            android:id="@+id/tv_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:drawableLeft="@mipmap/icon_comment"
+            android:drawablePadding="@dimen/text_padding2"
+            android:gravity="center_vertical"
+            android:text="300"
+            android:textColor="@color/text_color_label"
+            android:textSize="@dimen/fourth_text_size" />
+
+
+        <CheckBox
+            android:id="@+id/tv_collect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/tv_comment"
+            android:button="@drawable/drawable_collect"
+            android:checked="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/text_padding2"
+            android:text="300"
+            android:textColor="@color/text_color_label"
+            android:textSize="@dimen/fourth_text_size" />
+
+    </RelativeLayout>
+
+</LinearLayout>

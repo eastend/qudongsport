@@ -6,13 +6,7 @@ public class BleCoreFactory {
         if(deviceName.startsWith("EW")){
             return new CoreV1();
         }
-
         return null;
     }
-
-
-
-
-
 
 }

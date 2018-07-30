@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/text_padding">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_cover"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_sport_join_count"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="123参与"
+                android:textColor="#FF99FE"
+                android:textSize="@dimen/third_text_size" />
+
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="@dimen/text_padding"
+            android:text="剛發哈哈挂號費山豆根發射點山豆根發射點"
+            android:textColor="@color/black"
+            android:textSize="@dimen/second_text_size" />
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_margin"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="剛發哈哈挂號費山豆根發射點山豆根發射點"
+            android:textColor="@color/text_color_label"
+            android:textSize="@dimen/third_text_size" />
+
+    </LinearLayout>
+</RelativeLayout>

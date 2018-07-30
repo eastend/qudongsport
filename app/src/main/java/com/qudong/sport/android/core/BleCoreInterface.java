@@ -6,7 +6,7 @@ public interface BleCoreInterface {
 
      String getNotifyUUID();
 
-     String getWirteUUID();
+     String getWriteUUID();
 
      byte[] createStartCommand();
 

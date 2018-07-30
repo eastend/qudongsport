@@ -1,8 +1,6 @@
 package com.qudong.sport.android.core;
 
 public class CoreV1 implements BleCoreInterface {
-    private final String SERVICE_UUID="";
-
 
     @Override
     public String getServiceUUID() {
@@ -15,7 +13,7 @@ public class CoreV1 implements BleCoreInterface {
     }
 
     @Override
-    public String getWirteUUID() {
+    public String getWriteUUID() {
         return "FFF2";
     }
 
