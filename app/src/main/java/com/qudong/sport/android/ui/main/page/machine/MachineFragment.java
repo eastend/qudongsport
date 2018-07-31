@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.qudong.sport.android.R;
-import com.qudong.sport.android.common.ViewpagerFragment;
+import com.qudong.sport.android.base.ViewpagerFragment;
 
 /**
  * Created by Administrator on 2018/7/29 0029.
@@ -18,7 +18,7 @@ public class MachineFragment extends ViewpagerFragment {
 
     private View contentView;
 
-    public static final MachineFragment getNewInstance(){
+    public static final MachineFragment getNewInstance() {
         return new MachineFragment();
     }
 
@@ -37,7 +37,7 @@ public class MachineFragment extends ViewpagerFragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        contentView=inflater.inflate(R.layout.fg_machine,null);
+        contentView = inflater.inflate(R.layout.fg_machine, null);
         return contentView;
     }
 }

@@ -1,4 +1,4 @@
-package com.qudong.sport.android.common;
+package com.qudong.sport.android.base;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

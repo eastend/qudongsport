@@ -14,7 +14,7 @@ public class L {
         throw new UnsupportedOperationException("cannot be instantiated");
     }
 
-    private static boolean isDebug = false;// 是否需要打印bug，可以在application的onCreate函数里面初始化
+    private static boolean isDebug = true;// 是否需要打印bug，可以在application的onCreate函数里面初始化
     private static String TAG = "L";
 
 

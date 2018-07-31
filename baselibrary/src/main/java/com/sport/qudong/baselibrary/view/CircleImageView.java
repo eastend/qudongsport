@@ -52,6 +52,7 @@ public class CircleImageView extends android.support.v7.widget.AppCompatImageVie
     protected void onDraw(Canvas canvas) {
 
         mPaint = new Paint();
+        mPaint.setAntiAlias(true);
 
         Drawable drawable = getDrawable();
 

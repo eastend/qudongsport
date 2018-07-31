@@ -1,6 +1,8 @@
 package com.qudong.sport.android.ui.main.page.sport;
 
+import android.app.Activity;
 import android.os.Bundle;
+import android.os.Message;
 import android.support.annotation.Nullable;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
@@ -9,16 +11,19 @@ import android.view.ViewGroup;
 
 import com.androidkun.xtablayout.XTabLayout;
 import com.qudong.sport.android.R;
-import com.qudong.sport.android.common.CommonFgAdapter;
-import com.qudong.sport.android.common.ViewpagerFragment;
+import com.qudong.sport.android.base.CommonFgAdapter;
+import com.qudong.sport.android.base.ViewpagerFragment;
 import com.qudong.sport.android.ui.main.page.sport.item.ShareFragment;
 import com.qudong.sport.android.ui.main.page.sport.item.SignInFragment;
 import com.qudong.sport.android.ui.main.page.sport.item.SportActivityFragment;
+import com.qudong.sport.android.ui.message.MessageActivity;
+import com.qudong.sport.android.ui.search.SearchActivity;
 
 import java.util.ArrayList;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 /**
  * Created by Administrator on 2018/7/29 0029.
@@ -62,6 +67,17 @@ public class SportFragment extends ViewpagerFragment {
         contentView = inflater.inflate(R.layout.fg_sport, null);
         ButterKnife.bind(this, contentView);
         return contentView;
+    }
+
+
+    @OnClick(R.id.layout_message)
+    public void onMessageClick() {
+        MessageActivity.intentToMessage(getContext());
+    }
+
+    @OnClick(R.id.view_search)
+    public void onSearchClick() {
+        SearchActivity.intentToSearch((Activity) getContext());
     }
 
 

@@ -8,8 +8,8 @@ import android.widget.RadioGroup;
 
 import com.qudong.sport.android.R;
 import com.qudong.sport.android.base.BaseActivity;
-import com.qudong.sport.android.common.CommonFgAdapter;
-import com.qudong.sport.android.common.ViewpagerFragment;
+import com.qudong.sport.android.base.CommonFgAdapter;
+import com.qudong.sport.android.base.ViewpagerFragment;
 import com.qudong.sport.android.ui.main.page.machine.MachineFragment;
 import com.qudong.sport.android.ui.main.page.mine.MineFragment;
 import com.qudong.sport.android.ui.main.page.sport.SportFragment;

@@ -1,4 +1,4 @@
-package com.qudong.sport.android.common;
+package com.qudong.sport.android.base;
 
 /**
  * Created by Administrator on 2018/7/29 0029.

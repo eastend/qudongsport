@@ -14,6 +14,7 @@
         android:paddingLeft="@dimen/text_padding2">
 
         <TextView
+            android:id="@+id/view_search"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -28,12 +29,20 @@
             android:textColor="@color/text_color_light"
             android:textSize="@dimen/second_text_size" />
 
-        <ImageView
+        <FrameLayout
+            android:id="@+id/layout_message"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/text_margin"
-            android:layout_marginRight="@dimen/text_margin"
-            android:src="@mipmap/icon_message" />
+            android:layout_marginLeft="@dimen/toolbar_sub_element_margin"
+            android:layout_marginRight="@dimen/toolbar_sub_element_margin">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@mipmap/icon_message" />
+        </FrameLayout>
+
     </LinearLayout>
 
     <com.androidkun.xtablayout.XTabLayout

@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.qudong.sport.android.R;
-import com.qudong.sport.android.common.ViewpagerFragment;
+import com.qudong.sport.android.base.ViewpagerFragment;
 import com.qudong.sport.android.ui.main.page.sport.SportShareAdapter;
 
 import butterknife.BindView;

@@ -4,6 +4,7 @@
     <dimen name="toolbar_sub_text_size">15dp</dimen>
     <dimen name="toolbar_height">45dp</dimen>
     <dimen name="text_margin">16dp</dimen>
+    <dimen name="text_margin_large">20dp</dimen>
     <dimen name="text_margin2">8dp</dimen>
     <dimen name="text_padding">10dp</dimen>
     <dimen name="large_text_size">20dp</dimen>
@@ -14,7 +15,6 @@
     <dimen name="indicator_height">2dp</dimen>
     <dimen name="indicator_width">20dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
-    <dimen name="toolbar_sub_element_margin">14dp</dimen>
     <dimen name="text_padding2">5dp</dimen>
     <dimen name="vertical_divider">5dp</dimen>
 </resources>

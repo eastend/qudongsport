@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.qudong.sport.android.R;
-import com.qudong.sport.android.common.ViewpagerFragment;
+import com.qudong.sport.android.base.ViewpagerFragment;
 
 /**
  * Created by Administrator on 2018/7/29 0029.
